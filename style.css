@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #f27121, #e94057);
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.header-button {
+    background-color: #f27121;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreboard {
+    background-color: #e94057;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: #e94057;
+    cursor: pointer;
+}
+
+.status {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.restart-button {
+    margin-top: 20px;
+    background-color: #f27121;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
